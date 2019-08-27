@@ -3,11 +3,11 @@
 # Project Name
 > Here goes your awesome project description!
 
-Group Members:
-Augustus Newman
-David Dillion
-Deepa Baral
-Joel Trevizo
+* Group Members:
+* Augustus Newman
+* David Dillion
+* Deepa Baral
+* Joel Trevizo
 
 ## Inspiration
 Add here credits. Project inspired by..., based on...
