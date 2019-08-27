@@ -3,7 +3,7 @@
 # Project Name
 > Here goes your awesome project description!
 
-* Group Members:
+Group Members:
 * Augustus Newman
 * David Dillion
 * Deepa Baral
