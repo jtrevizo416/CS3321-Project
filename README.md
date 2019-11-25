@@ -29,8 +29,48 @@ Inspired by our former UHD regestration and student information site.
   If you would like to copy and paste parts of our code please feel free to click on the project tabs.
 
 ## Code Examples
-Show examples of usage:
-`put-your-code-here`
+ Example of usage:
+ 
+ Public Class Form1
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+
+    End Sub
+
+    Private Sub Student_InfoBindingNavigatorSaveItem_Click(sender As Object, e As EventArgs)
+        Me.Validate()
+        Me.Student_InfoBindingSource.EndEdit()
+        Me.TableAdapterManager.UpdateAll(Me.Student_InformationDataSet)
+
+    End Sub
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        'TODO: This line of code loads data into the 'Student_InformationDataSet.Student_Info' table. You can move, or remove it, as needed.
+        Me.Student_InfoTableAdapter.Fill(Me.Student_InformationDataSet.Student_Info)
+
+    End Sub
+
+    Private Sub btnAddStudent_Click(sender As Object, e As EventArgs) Handles btnAddStudent.Click
+        Me.Student_InfoBindingSource.AddNew() 'Add Student Information to the Database
+        Me.Student_InfoBindingSource.EndEdit()
+        Me.Student_InfoTableAdapter.Update(Student_InformationDataSet.Student_Info) 'Save Changes to the student info database
+        MessageBox.Show("Student has been succesfully added.")
+        'Clear info from the text boxes
+        IndexTextBox.Text = ""
+        Student_IDTextBox.Text = ""
+        First_NameTextBox.Text = ""
+        Last_NameTextBox.Text = ""
+        Date_Of_BirthTextBox.Text = ""
+        GenderTextBox.Text = ""
+        PasswordTextBox.Text = ""
+    End Sub
+
+    Private Sub btnDeleteStudent_Click(sender As Object, e As EventArgs) Handles btnDeleteStudent.Click
+        Me.Student_InfoBindingSource.RemoveCurrent() 'Remove Student from the database
+        Me.Student_InfoBindingSource.EndEdit()
+        Me.Student_InfoTableAdapter.Update(Student_InformationDataSet.Student_Info) 'save changes made
+        MessageBox.Show("Student has been successfully removed")
+    End Sub
+End Class
 
 ## Features
 * GPA Calculator
