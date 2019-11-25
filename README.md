@@ -20,7 +20,9 @@ Add here credits. Project inspired by..., based on...
 * [Status](#status)
 
 ## General info
-Add more -
+   This is our creation of a Learning Management System that may help ease student to college conection. 
+   
+   Here we have provided a login that way allow student to access their 
 
 ## Technologies (Do we need this?)
 * Tech 1 - version 1.0
