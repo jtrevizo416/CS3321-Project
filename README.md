@@ -1,7 +1,7 @@
 # CS3321-Project
 
 # Project Name
-> Here goes your awesome project description!
+Learning Management System
 
 Group Members:
 * Augustus Newman
@@ -10,7 +10,7 @@ Group Members:
 * Joel Trevizo
 
 ## Inspiration
-Add here credits. Project inspired by..., based on...
+Inspired by our former UHD regestration and student information site.
 
 ## Table of contents
 * [General info](#general-info)
@@ -20,31 +20,26 @@ Add here credits. Project inspired by..., based on...
 * [Status](#status)
 
 ## General info
-   This is our creation of a Learning Management System that may help ease student to college conection. 
+ This is our creation of a Learning Management System that may help ease student to college conection. 
    
-   Here we have provided a login that way allow student to access their 
-
-## Technologies (Do we need this?)
-* Tech 1 - version 1.0
-* Tech 2 - version 2.0
-* Tech 3 - version 3.0
+ Here we have provided a login that way allow student to access their 
 
 ## Setup
-Describe how to install / setup your local environement / add link to demo version.
+  The .zip files have all of the visual studio codes and access file ready.
+
+  If you would like to copy and paste parts of our code please feel free to click on the project tabs.
 
 ## Code Examples
 Show examples of usage:
 `put-your-code-here`
 
 ## Features
-List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
+* GPA Calculator
+* Add, Delete, Update, and Save from Access to Visual Basic
 
 To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
+* Combine student and admin views into one file
+* Reduce student view to not show courses available that have already been taken
 
 ## Status
-We just started! What What!
+Working version 2.01 has been added
